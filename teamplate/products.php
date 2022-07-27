@@ -6,7 +6,7 @@
         $newProduct = $_GET['addProducts'];
         $newPrice = $_GET['addPrice'];
         mysqli_query($db, 'insert into products (name, price) values (' . "'" . $newProduct. "'" . ',' . $newPrice . ');');
-        header('location: index.php?page=products');
+        header('Location: index.php?page=products');
         die();
     }
 

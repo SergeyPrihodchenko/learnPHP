@@ -3,4 +3,5 @@
     <li><a href="/?page=catalog">Catalog</a></li>
     <li><a href="/?page=gallery">Gallery</a></li>
     <li><a href="/?page=products">Products</a></li>
+    <li><a href="/?page=calculate">Calculate</a></li>
 </ul>

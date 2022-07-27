@@ -7,7 +7,7 @@ function render($page, $params=[]) {
         'content' => renderTeampleate($page, $params),
         'message' => renderTeampleate('message', $params),
         'products' => renderTeampleate('products', $params),
-
+        'calculate' => renderTeampleate('calculate', $params)
     ]);
 }
 

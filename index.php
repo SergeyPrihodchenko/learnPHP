@@ -1,6 +1,6 @@
 <?php
-define('TEAMPLATE_DIR', 'teamplate/');
 
+require './engien/config/config.php';
 require "engien/data.php";
 require "engien/function.php";
 require "engien/api.php";
@@ -29,14 +29,13 @@ switch ($page) {
     case 'products':
         $params['title'] = 'Products';
         break;
+    case 'calculate':
+        $params['title'] = 'Calculate';
+        break;
     
     default:
         die('404');
         break;
 }
 
-echo render($page, $params);
-
-
-
-
+echo @render($page, $params);
